@@ -1,0 +1,135 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    background-color:#303841;
+    padding: 0;
+
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+
+    
+}
+.nav-item{
+    list-style: none;
+    font-size:25px;
+    justify-content:space-around;
+    display: flex;
+    z-index: 1000;
+    
+
+}
+header nav{
+    background-color: #BE3144; 
+    color: white;
+    margin: 0;
+    
+}
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;   
+}
+#projects div{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto;
+    text-align: center;
+    padding: 30px;
+
+
+}
+.projects-section{
+    background-color: #45567D;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.projects-section h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact-section{
+    border-bottom: 3px solid  #BE3144;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: white;
+    font-size: 40px;
+    height:3em;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.contact-section p{
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+display: block;
+width: 90%;
+height: 90%;
+}
+#welcome-section h1{
+font-size: 80px;
+color: white;
+}
+#welcome-section p{
+    font-size: 35px;
+    padding-top: 0;
+    margin: 0;
+    color:  #BE3144; 
+
+}
+.welcome-section{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color:#303841;
+height:30em;
+padding-top: 80px;
+padding-bottom: 100px;
+
+
+
+}
+.project-tile{
+    display:inline-block;
+    font-size: 30px;
+    background-color: #303841;
+    color: white;
+   
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 400;
+    color: white;
+    height:3em;
+    padding-top: 20px;
+}
+
+
+
+
+/* this is i have seen because i have some issue in jQuery */
+@media(max-width:600px){
+    .welcome-section{
+        display: flex;
+        height: 30em;
+       
+}
+}
